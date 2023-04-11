@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-11T13:09:30 IST" name="Default suite" finished-at="2023-04-11T13:09:37 IST" duration-ms="7373">
+    <groups>
+      <group name="regression">
+        <method signature="PIMTest.TestIngChanges()[pri:5, instance:Test.PIMTest@63a12c68]" name="TestIngChanges" class="Test.PIMTest"/>
+        <method signature="PIMTest.verifyEmpSearchEmpId()[pri:4, instance:Test.PIMTest@63a12c68]" name="verifyEmpSearchEmpId" class="Test.PIMTest"/>
+        <method signature="PIMTest.verifyPimPageTitle()[pri:3, instance:Test.PIMTest@63a12c68]" name="verifyPimPageTitle" class="Test.PIMTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="PIMTest.TestIngChanges()[pri:5, instance:Test.PIMTest@63a12c68]" name="TestIngChanges" class="Test.PIMTest"/>
+        <method signature="PIMTest.verifyEmpSearchEmpId()[pri:4, instance:Test.PIMTest@63a12c68]" name="verifyEmpSearchEmpId" class="Test.PIMTest"/>
+        <method signature="PIMTest.verifyPimPageTitle()[pri:3, instance:Test.PIMTest@63a12c68]" name="verifyPimPageTitle" class="Test.PIMTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-04-11T13:09:30 IST" name="Default test" finished-at="2023-04-11T13:09:37 IST" duration-ms="7373">
+      <class name="Test.PIMTest">
+        <test-method is-config="true" signature="intiBrowser()[pri:0, instance:Test.PIMTest@63a12c68]" started-at="2023-04-11T13:09:21 IST" name="intiBrowser" finished-at="2023-04-11T13:09:30 IST" duration-ms="8280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiBrowser -->
+        <test-method is-config="true" signature="pageObjects()[pri:0, instance:Test.PIMTest@63a12c68]" started-at="2023-04-11T13:09:30 IST" name="pageObjects" finished-at="2023-04-11T13:09:30 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageObjects -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:Test.PIMTest@63a12c68]" started-at="2023-04-11T13:09:30 IST" name="Login" finished-at="2023-04-11T13:09:33 IST" duration-ms="3072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="verifyPimPageTitle()[pri:3, instance:Test.PIMTest@63a12c68]" started-at="2023-04-11T13:09:33 IST" name="verifyPimPageTitle" finished-at="2023-04-11T13:09:35 IST" duration-ms="1737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPimPageTitle -->
+        <test-method signature="verifyEmpSearchEmpId()[pri:4, instance:Test.PIMTest@63a12c68]" started-at="2023-04-11T13:09:35 IST" name="verifyEmpSearchEmpId" finished-at="2023-04-11T13:09:35 IST" duration-ms="754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmpSearchEmpId -->
+        <test-method signature="TestIngChanges()[pri:5, instance:Test.PIMTest@63a12c68]" started-at="2023-04-11T13:09:35 IST" name="TestIngChanges" finished-at="2023-04-11T13:09:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestIngChanges -->
+        <test-method is-config="true" signature="logOutUser()[pri:0, instance:Test.PIMTest@63a12c68]" started-at="2023-04-11T13:09:35 IST" name="logOutUser" finished-at="2023-04-11T13:09:37 IST" duration-ms="1768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutUser -->
+        <test-method is-config="true" signature="logoutUser()[pri:0, instance:Test.PIMTest@63a12c68]" started-at="2023-04-11T13:09:37 IST" name="logoutUser" finished-at="2023-04-11T13:09:40 IST" duration-ms="2388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+      </class> <!-- Test.PIMTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
