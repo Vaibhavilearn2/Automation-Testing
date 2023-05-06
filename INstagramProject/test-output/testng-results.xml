@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="10" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-06T09:39:49 IST" name="Suite" finished-at="2023-05-06T09:40:16 IST" duration-ms="26752">
+    <groups>
+      <group name="regression">
+        <method signature="LoginTest.verifyBuildTitleName()[pri:-1, instance:test.LoginTest@712625fd]" name="verifyBuildTitleName" class="test.LoginTest"/>
+        <method signature="LoginTest.verifyCurrentUrlOfPage()[pri:1, instance:test.LoginTest@712625fd]" name="verifyCurrentUrlOfPage" class="test.LoginTest"/>
+        <method signature="LoginTest.verifyLoginWithCorrectCredentials()[pri:2, instance:test.LoginTest@712625fd]" name="verifyLoginWithCorrectCredentials" class="test.LoginTest"/>
+        <method signature="MoreTest.titleOfDashBoardPage()[pri:3, instance:test.MoreTest@7bba5817]" name="titleOfDashBoardPage" class="test.MoreTest"/>
+        <method signature="MoreTest.titleOfMorePage()[pri:4, instance:test.MoreTest@7bba5817]" name="titleOfMorePage" class="test.MoreTest"/>
+        <method signature="MoreTest.setting()[pri:6, instance:test.MoreTest@7bba5817]" name="setting" class="test.MoreTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginTest.verifyBuildTitleName()[pri:-1, instance:test.LoginTest@712625fd]" name="verifyBuildTitleName" class="test.LoginTest"/>
+        <method signature="LoginTest.verifyCurrentUrlOfPage()[pri:1, instance:test.LoginTest@712625fd]" name="verifyCurrentUrlOfPage" class="test.LoginTest"/>
+        <method signature="LoginTest.verifyLoginWithCorrectCredentials()[pri:2, instance:test.LoginTest@712625fd]" name="verifyLoginWithCorrectCredentials" class="test.LoginTest"/>
+        <method signature="MoreTest.titleOfDashBoardPage()[pri:3, instance:test.MoreTest@7bba5817]" name="titleOfDashBoardPage" class="test.MoreTest"/>
+        <method signature="MoreTest.titleOfMorePage()[pri:4, instance:test.MoreTest@7bba5817]" name="titleOfMorePage" class="test.MoreTest"/>
+        <method signature="MoreTest.setting()[pri:6, instance:test.MoreTest@7bba5817]" name="setting" class="test.MoreTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-05-06T09:39:49 IST" name="Test" finished-at="2023-05-06T09:40:16 IST" duration-ms="26752">
+      <class name="test.MoreTest">
+        <test-method signature="titleOfDashBoardPage()[pri:3, instance:test.MoreTest@7bba5817]" started-at="2023-05-06T09:39:59 IST" name="titleOfDashBoardPage" finished-at="2023-05-06T09:39:59 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleOfDashBoardPage -->
+        <test-method is-config="true" signature="pageObjects()[pri:0, instance:test.MoreTest@7bba5817]" started-at="2023-05-06T09:39:59 IST" name="pageObjects" finished-at="2023-05-06T09:39:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageObjects -->
+        <test-method signature="titleOfMorePage()[pri:4, instance:test.MoreTest@7bba5817]" started-at="2023-05-06T09:39:59 IST" name="titleOfMorePage" finished-at="2023-05-06T09:40:00 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleOfMorePage -->
+        <test-method signature="setting()[pri:6, instance:test.MoreTest@7bba5817]" started-at="2023-05-06T09:40:00 IST" name="setting" finished-at="2023-05-06T09:40:16 IST" duration-ms="16002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setting -->
+      </class> <!-- test.MoreTest -->
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="pageObjects()[pri:0, instance:test.LoginTest@712625fd]" started-at="2023-05-06T09:39:49 IST" name="pageObjects" finished-at="2023-05-06T09:39:49 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageObjects -->
+        <test-method signature="verifyBuildTitleName()[pri:-1, instance:test.LoginTest@712625fd]" started-at="2023-05-06T09:39:49 IST" name="verifyBuildTitleName" finished-at="2023-05-06T09:39:49 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuildTitleName -->
+        <test-method signature="verifyCurrentUrlOfPage()[pri:1, instance:test.LoginTest@712625fd]" started-at="2023-05-06T09:39:49 IST" name="verifyCurrentUrlOfPage" finished-at="2023-05-06T09:39:49 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCurrentUrlOfPage -->
+        <test-method signature="verifyLoginWithCorrectCredentials()[pri:2, instance:test.LoginTest@712625fd]" started-at="2023-05-06T09:39:49 IST" name="verifyLoginWithCorrectCredentials" finished-at="2023-05-06T09:39:59 IST" duration-ms="10239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithCorrectCredentials -->
+      </class> <!-- test.LoginTest -->
+      <class name="test.BaseTest">
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:test.BaseTest@7ef82753]" started-at="2023-05-06T09:39:43 IST" name="initBrowser" finished-at="2023-05-06T09:39:49 IST" duration-ms="5431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method is-config="true" signature="logoutUser()[pri:0, instance:test.BaseTest@7ef82753]" started-at="2023-05-06T09:40:16 IST" name="logoutUser" finished-at="2023-05-06T09:40:16 IST" duration-ms="688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+      </class> <!-- test.BaseTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
